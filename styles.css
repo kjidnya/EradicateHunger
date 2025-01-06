@@ -1,0 +1,200 @@
+.navbar-brand img {
+  width: 150px;
+  height: 50px;
+}
+
+.menu{
+  color: rgb(46, 44, 44);
+}
+.container-fluid{
+background-color:rgb(189, 186, 186);
+}
+.carousel-item {
+background-color: rgb(189, 186, 186);
+justify-content: center;
+padding-left: 90px;
+padding-right: 90px;
+margin-top: 10px;
+height: 500px;
+}
+h5{
+color:rgba(43, 43, 41, 0.959);
+}
+p{
+color:black;
+}
+h2{
+font-weight: 350;
+text-align: center;
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+font-optical-sizing: auto;
+}
+p{
+text-align: center;
+font-weight: lighter;
+padding-left: 20px;
+padding-right: 20px;
+}
+.cards{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+text-align: center;
+padding: 20px 120px 20px 120px;
+flex-wrap: wrap;
+gap: 3px;
+background-color:rgb(189, 186, 186);
+}
+.card{
+padding: 20px;
+min-height: 320px;
+width: 100px;
+overflow: hidden;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+}
+.card img {
+height: 100px;
+width: 100px;
+
+}
+.card-body{
+padding: 20px; 
+font-size: 10px;
+font-weight: bold; 
+font-style: normal;
+}
+/* Change the link color under "Quick Links" to white */
+#pages-3  li a {
+color: white;
+text-decoration: none; /* Optional: removes the underline */
+}
+
+/* Ensure the link changes color when hovered */
+#pages-3 li a:hover {
+color: lightgray;
+}
+#pages-3 ul {
+display: flex;
+justify-content:space-between;
+gap: 20px; /* Adds spacing between links */
+list-style-type: none; /* Removes bullets */
+padding: 0px; /* Removes default padding */
+margin: 0px; /* Removes default margin */
+}
+
+/* Apply the background color to the "Quick Links" container */
+#pages-3 {
+background-color: rgb(189, 186, 186);
+padding: 20px;
+border-radius: 5px; /* Optional: adds rounded corners */
+padding-left: 200px;
+margin: right 200px;
+}
+h4{
+font-family:sans-serif;
+font-weight: lighter;
+font-size: larger;
+}
+h3{
+font-weight: lighter;
+}
+.footer-main{
+background-color: rgb(189, 186, 186);
+}
+/* Social links container and styling */
+.social-links li {
+display: flex;
+align-items: center;
+gap: 10px;
+font-family: Montserrat;
+}
+
+.social-links h4 {
+font-weight: 480;
+font-size: 16px;
+margin-bottom: 4px;
+margin-top: 8px;
+}
+
+.social-link {
+color: #333; /* Dark gray */
+text-decoration: none;
+font-weight: light;
+font-size: small;
+}
+
+.social-link:hover {
+color: #555; /* Lighter gray on hover */
+}
+
+.fw-contact-icon i {
+font-size: 24px;
+color: #555;
+}
+/* Footer Carousel Wrapper */
+.footer-carousel {
+max-width: 100%;
+overflow: hidden;
+position: relative;
+padding: 20px 0;
+background-color:rgb(189, 186, 186);
+}
+
+/* Carousel Container */
+.carousel-wrapper {
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.carousel {
+display: flex;
+gap: 50px;
+transition: transform 0.5s ease;
+}
+
+/* Carousel Slide */
+.carousel-slide {
+min-width: 200px;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.carousel-slide img {
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Arrows */
+.carousel-button {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background-color: rgba(92, 90, 90, 0.5);
+color: #fff;
+padding: 10px 15px;
+border-radius: 50%;
+cursor: pointer;
+z-index: 10;
+font-size: 18px;
+}
+
+.carousel-button-prev {
+left: 10px;
+}
+
+.carousel-button-next {
+right: 10px;
+}
